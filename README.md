@@ -14,9 +14,9 @@ python train_twins2s2_shift_spix.py
 ## Unsupervised SAR-Optical Segmentation
 SAR and optical images provide complementary information on land-cover categories in terms of both spectral signatures and dielectric properties. This paper proposes a new unsupervised land-cover segmentation approach based on contrastive learning and vector quantization that jointly uses SAR and optical images. This approach exploits a pseudo-Siamese network to extract and discriminate features of different categories, where one branch is a ResUnet and the other branch is a gumble-softmax vector quantizer.
 The core idea is to minimize the contrastive loss between the learned features of the two branches. To segment images, for each pixel the output of gumble-softmax is discretized as a one-hot vector and its proxy label is chosen as the corresponding class. The proposed approach is validated on a subset of DFC2020 dataset including six different land-cover categories. Experimental results demonstrate improvements over the current state-of-the-art techniques and the effectiveness of unsupervised land-cover segmentation on SAR-optical image pairs.
-###Methods
+### Methods
 ![Image text](https://github.com/yusin2it/SARoptical_fusion/blob/main/img_sources/proposal_lc.jpg)
-###Results
+### Results
 ![Image text](https://github.com/yusin2it/SARoptical_fusion/blob/main/img_sources/BSCD.jpg)
-###Training
+### Training
 Python train_vq_Efusion.py
