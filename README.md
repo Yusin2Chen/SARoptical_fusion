@@ -10,10 +10,14 @@ The effective combination of the complementary information provided by huge amou
 ### Results
 ![Image text](https://github.com/yusin2it/SARoptical_fusion/blob/main/img_sources/comparison_of_methods.jpg)
 ### Training
+'''
 python train_XX.py
+'''
 ### Further Improvements
 We further used the multi-crops (multi-scale superpixels) and EMA to stablize the training processes.
+'''
 python train_twins2s2_shift_spix.py
+'''
 
 ## Unsupervised SAR-Optical Segmentation
 SAR and optical images provide complementary information on land-cover categories in terms of both spectral signatures and dielectric properties. This paper proposes a new unsupervised land-cover segmentation approach based on contrastive learning and vector quantization that jointly uses SAR and optical images. This approach exploits a pseudo-Siamese network to extract and discriminate features of different categories, where one branch is a ResUnet and the other branch is a gumble-softmax vector quantizer.
@@ -23,4 +27,6 @@ The core idea is to minimize the contrastive loss between the learned features o
 ### Results
 ![Image text](https://github.com/yusin2it/SARoptical_fusion/blob/main/img_sources/BSCD.jpg)
 ### Training
+'''
 Python train_vq_Efusion.py
+'''
