@@ -1,6 +1,6 @@
 # SARoptical Applications
 ## Dataset
-We developed our experiments on a subset of DFC2020 dataset.This subset consists of 2000 triple samples, which are SAR-optical image pairs and more accurate semi-manually derived high resolution (10 m) land-cover maps.SAR images with dual-polarized (VV and VH) components were acquired by the Sentinel-1 satellite.The optical images with 12 bands were taken by the multi-spectral sensor of the Sentinel-2 satellite.
+We developed our experiments on a subset of DFC2020 dataset.This subset consists of 2000 triple samples, which are SAR-optical image pairs and more accurate semi-manually derived high resolution (10 m) land-cover maps.SAR images with dual-polarized (VV and VH) components were acquired by the Sentinel-1 satellite.The optical images with 12 bands were taken by the multi-spectral sensor of the Sentinel-2 satellite.\<br>
 Link:https://ieee-dataport.org/competitions/2020-ieee-grss-data-fusion-contest
 
 ## SAR-Optical Feature Fusion
